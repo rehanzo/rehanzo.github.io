@@ -6,12 +6,10 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: #282828;
+    text-align: center; /* center the content */
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    padding-top: 20%; /* add some padding on the top */
 }
 
 #main {
@@ -19,10 +17,12 @@ body {
 }
 
 h1 {
-    margin-bottom: 1em;
-    color: #333;
+    color: #d4be98;
 }
 
-p {
-    color: #666;
+a {
+    display: block; /* make links line by line */
+    margin: 1em 0; /* add margins above and below */
+    text-decoration: none; /* remove underline */
+    color: #AF99BF;
 }
